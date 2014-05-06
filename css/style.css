@@ -2,6 +2,10 @@
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
+
+.neatline-link {
+	font-size: 400%;
+}
 /**
  * Correct `block` display not defined in IE 8/9.
  */
@@ -1431,6 +1435,7 @@ table {
   /* = Page-specific == */
   #home #primary div {
     margin-bottom: 40px;
+    width: 0px;
     overflow: hidden;
   }
   #home #secondary div {
@@ -1806,10 +1811,11 @@ table {
 
   #primary {
     padding-left: 0%;
+    width: 0px;
   }
 
   #home #primary {
-    width: 43.15789%;
+   // width: 43.15789%;
     float: left;
     margin-right: 1.05263%;
     display: inline;

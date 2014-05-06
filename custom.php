@@ -13,7 +13,7 @@ function display_recent_neatline_exhibits() {
 	//	$html .= "";
 
 		foreach (loop('NeatlineExhibit') as $exhibit) {
-			$html .= "<div>"
+			$html .= "<div class='neatline-link'>"
 				.nl_getExhibitLink(
 					$exhibit,
 					'show',
